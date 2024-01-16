@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #myInput {
+            width: 260px;
+            height: 50px;
+        }
+
+        #App{
+            padding: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="App">
+        <input type="text" id="myInput" placeholder="Enter values...">
+
+        <br><br>
+        <button id="Clear" onclick="clickAction()"> <img src="./images/Clear.png" alt="Clear"> </button>
+        <button id="Del" onclick="clickAction()"> <img src="./images/Del.png" alt="Del"> </button>
+        <button id="Mod" onclick="clickAction()"> <img src="./images/Mod.png" alt="Mod"> </button>
+        <button id="Div" onclick="clickAction()"> <img src="./images/Div.png" alt="Div"> </button>
+
+        <br><br>
+        <button id="num7" onclick="clickAction()"> <img src="./images/7.png" alt="7"> </button>
+        <button id="num8" onclick="clickAction()"> <img src="./images/8.png" alt="8"> </button>
+        <button id="num9" onclick="clickAction()"> <img src="./images/9.png" alt="9"> </button>
+        <button id="Mul" onclick="clickAction()"> <img src="./images/Mul.png" alt="Mul"> </button>
+
+        <br><br>
+        <button id="num4" onclick="clickAction()"> <img src="./images/4.png" alt="4"> </button>
+        <button id="num5" onclick="clickAction()"> <img src="./images/5.png" alt="5"> </button>
+        <button id="num6" onclick="clickAction()"> <img src="./images/6.png" alt="6"> </button>
+        <button id="Sub" onclick="clickAction()"> <img src="./images/Sub.png" alt="Sub"> </button>
+
+        <br><br>
+        <button id="num1" onclick="clickAction()"> <img src="./images/1.png" alt="1"> </button>
+        <button id="num2" onclick="clickAction()"> <img src="./images/2.png" alt="2"> </button>
+        <button id="num3" onclick="clickAction()"> <img src="./images/3.png" alt="3"> </button>
+        <button id="Add" onclick="clickAction()"> <img src="./images/Add.png" alt="Add"> </button>
+
+        <br><br>
+        <a href="video/Rick Astley - Never Gonna Give You Up (Official Music Video).mp4"> <button id="Easter_egg"> <img src="./images/Easter_egg.png" alt="Easter_egg"> </button> </a>
+        <button id="num0" onclick="clickAction()"> <img src="./images/0.png" alt="0"> </button>
+        <button id="Dec" onclick="clickAction()"> <img src="./images/Dec.png" alt="Dec"> </button>
+        <button id="Calculate" onclick="generateAnswer()"> <img src="./images/Calculate.png" alt="Calculate"> </button>
+    </div>
+    Result : <textarea name="Result" id="res" cols="30" rows="1"></textarea>
+
+    <script src="main.js" type="module"></script>
+    <script src="gemini.js" type="module"></script>
+
+</body>
+</html>
