@@ -1,1 +1,1 @@
-# GeminiAI-powred-Calci
+# GeminiAI-powred-Calculator
